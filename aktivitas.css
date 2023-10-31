@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* navbar */
+
+.navbar {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0,);
+    top: 0;
+    margin-top: 10px;
+    }
+    
+    
+    .navbar ul {
+        display: flex;
+        list-style: none;
+        margin: 20px 0px;
+    }
+    
+    .navbar ul li{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+    
+    .navbar ul li a{
+        padding: 8px 25px;
+        text-decoration: none;
+        color: white;
+        transition: all .5s ease;
+    }
+    
+    .navbar ul li a:hover {
+        background-color: white;
+        color: black;
+        box-shadow: 0 0 10px white;
+    }
+
+    .container {
+        position: relative;
+        width: 100%;
+        max-width: 1000px;
+        min-height: 350px;
+        background: black;
+        display: grid;
+        grid-template-columns: 2fr 4fr;
+    }
+
+    .container .kiri {
+        position: relative;
+        background: rgb(124, 122, 122);
+        padding: 40px;
+
+    }
+
+    .container .kanan {
+        position: relative;
+        background: whitesmoke;
+        padding: 40px;
+    }
+
+    body {
+        background:rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: rgb(44, 43, 43);
+    }
+    
+    h1 {
+        margin-top: 100px;
+        text-align: center;
+       
+
+    }
+
+.kanan iframe {
+    position: relative;
+    margin-top: 1px;
+    margin-left: 90px;
+    
+    }

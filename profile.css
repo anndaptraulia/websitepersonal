@@ -1,0 +1,259 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #252424 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.navbar {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    top: 0;
+    
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 20px 0;
+
+}
+
+.navbar ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.navbar ul li a {
+    padding: 8px 25px;
+    text-decoration: none;
+    color: #fff;
+    transition: all .5s;
+
+}
+.navbar ul li a:hover {
+    background-color: #fff;
+    color: black;
+    box-shadow: 0 0 10px white;
+
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+.container .kiri
+{
+   position: relative; 
+   background: #535353;
+   padding: 40px;
+}
+
+.ProfileText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.ProfileText .imgbox {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.imgbox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.ProfileText h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+
+.ProfileText h2 span {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.contactinfo {
+    padding-top: 40px;
+
+}
+
+.education ul li {
+    list-style: none;
+}
+
+.education li {
+    margin-bottom: 20px;
+
+}
+
+.education h5 {
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+.education h4 {
+    color: #fff;
+    font-weight: 500;
+}
+
+.title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.education .title {
+    margin-top: 50px;
+}
+
+.contactinfo ul {
+    position: relative;
+}
+
+.contactinfo ul li {
+    list-style: none;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contactinfo ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.contactinfo ul li span {
+    color: #fff;
+    font-weight: 300;
+
+}
+
+.bahasa .percent {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: rgb(0, 0, 0);
+    display: block;
+    margin-top: 5px;
+}
+
+.bahasa .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #fff;
+}
+
+.bahasa li {
+    margin-bottom: 20px;
+}
+
+.bahasa ul li {
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.bahasa .text {
+    color: #fff;
+    font-weight: 300;
+}
+
+.container .kanan {
+    position: relative;
+    background: rgb(248, 237, 237);
+    padding: 40px;
+}
+
+.kanan .about {
+    margin: 50px
+}
+
+.about:last-child {
+    margin-bottom: 0;
+}
+
+.title2 {
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+
+.info h3 {
+    padding: 3px;
+}
+
+
+.about p {
+    color: #333;
+    padding: 3px;
+}
+
+.interest ul {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.interest h2 { 
+    letter-spacing: 1px;
+    color: #003147;
+
+}
+
+.interest ul li{
+    list-style: none;
+    color: #333;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
